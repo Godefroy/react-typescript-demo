@@ -1,0 +1,19 @@
+{
+  "name": "react-typescript",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "parcel-bundler": "^1.9.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}

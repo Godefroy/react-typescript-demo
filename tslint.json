@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:latest"],
+  "rules": {
+    "quotemark": [true, "double", "jsx-double"],
+    "semicolon": [true, "never"],
+    "object-literal-sort-keys": false,
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "no-console": [true, "debug", "info", "time", "timeEnd"],
+    "curly": false,
+    "ordered-imports": [false],
+    "no-uninitialized": [true, "properties"],
+    "no-submodule-imports": false,
+    "max-classes-per-file": [false],
+    "max-line-length": [false],
+    "indent": [true, "spaces", 2]
+  }
+}
